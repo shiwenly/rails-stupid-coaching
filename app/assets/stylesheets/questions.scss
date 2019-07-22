@@ -1,0 +1,38 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.ask {
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+  border-left: rgb(150, 150, 150) solid 3px;
+}
+
+.answer {
+  width: 400px;
+  background-color: #FFFEE1;
+  padding: 10px;
+  border-left: rgb(150, 150, 150) solid 3px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 400px;
+  height: 30px;
+}
+
+.button {
+  height: 35px;
+  width: 50px;
+  background-color: #337AB7;
+  color: white;
+  border-radius: 5px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}

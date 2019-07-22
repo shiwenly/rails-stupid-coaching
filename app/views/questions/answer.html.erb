@@ -1,0 +1,27 @@
+<div class="container">
+
+  <h1>Stupid Coaching</h1>
+
+  <div class="ask">
+    <%=@question_answer%>
+    <p>-You</p>
+  </div>
+
+  <br>
+
+  <div class="answer">
+    <% if @question_answer.downcase == "i am going to work" %>
+      <p><%="Great!"%></p>
+      <% elsif @question_answer.downcase.include?("?")%>
+        <p><%="Silly question, get dressed and go to work!"%></p>
+      <% else%>
+        <p><%="I don't care, get dressed and go to work!"%></p>
+    <%end%>
+    <p>-Your coach</p>
+
+  </div>
+
+  <a href="http://localhost:3000/ask">Ask a new question</a>
+
+</div>
+
